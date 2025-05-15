@@ -1,18 +1,56 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Quem Somos</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="CSS/quem_somos.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quem Somos</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/quem_somos.css">
+</head>
+
+<body>
+    <nav id="navbar-esquerda-selector" class="navbar-esquerda">
+        <div class="relative-parent">
+            <img src="Assets/Icons/arrow_back_icon.svg" onclick="navbar_toggle()"
+                alt="Seta para a esquerda. Sinaliza a função de fechar o menu de links" id="close-menu-selector"
+                class="close-menu">
+            <img class="logo-hc" draggable="false" src="Assets/logo_hc.png" alt="Logo do Hospital das Clínicas">
+            <ul id="lista-links-menu-selector" class="lista-links-menu">
+                <a href="index.html">
+                    <li>
+                        Home
+                        <img src="Assets/Icons/home_icon.svg" alt="">
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        FAQ
+                        <img src="Assets/Icons/faq_icon.svg" alt="">
+                    </li>
+                </a>
+                <a href="contato.html">
+                    <li>
+                        Contato
+                        <img src="Assets/Icons/contato.svg" alt="">
+                    </li>
+                </a>
+                <a href="quem_somos.html">
+                    <li>
+                        Quem somos
+                        <img src="Assets/Icons/quem_somos_icon.svg" alt="">
+                    </li>
+                </a>
+                </ol>
+        </div>
+    </nav>
+    <div id="estrutura-pagina-menu-selector" class="estrutura-pagina-menu">
         <header class="header-page">
             <div class="background-colorido-header">
                 <h2>Quem Somos</h2>
-                <img src="./Assets/Icons/quem_somos_icon.svg" alt="Ícone com três pessoas, simbolizando os três autores do website.">
+                <img src="./Assets/Icons/quem_somos_icon.svg"
+                    alt="Ícone com três pessoas, simbolizando os três autores do website.">
             </div>
         </header>
         <main>
@@ -28,7 +66,8 @@
                         <img draggable="false" src="./Assets/Icons/github_icon.png" alt="Ícone com a logo do Github">
                     </a>
                     <a target="_blank" href="https://www.linkedin.com/in/andrerosacolombo">
-                        <img draggable="false" src="./Assets/Icons/linkedin_icon.png" alt="Ícone com a logo do Linkedin">
+                        <img draggable="false" src="./Assets/Icons/linkedin_icon.png"
+                            alt="Ícone com a logo do Linkedin">
                     </a>
                 </div>
             </div>
@@ -43,14 +82,16 @@
                     <a target="_blank" href="https://github.com/ZeDio">
                         <img draggable="false" src="./Assets/Icons/github_icon.png" alt="Ícone com a logo do Github">
                     </a>
-                    <a target="_blank" href="">
-                        <img draggable="false" src="./Assets/Icons/linkedin_icon.png" alt="Ícone com a logo do Linkedin">
+                    <a target="_blank" href="https://www.linkedin.com/in/jos%C3%A9-diogo-d-33634b280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                        <img draggable="false" src="./Assets/Icons/linkedin_icon.png"
+                            alt="Ícone com a logo do Linkedin">
                     </a>
                 </div>
             </div>
             <div class="card-integrante">
                 <div class="foto-integrante">
-                    <img draggable="false" src="Assets/Integrantes/pedro_miranda.png" alt="Foto do integrante André Rosa">
+                    <img draggable="false" src="Assets/Integrantes/pedro_miranda.png"
+                        alt="Foto do integrante André Rosa">
                 </div>
                 <h4>Pedro Henrique M. de Vasconcelos</h4>
                 <h5>RM 562682</h5>
@@ -60,12 +101,15 @@
                         <img draggable="false" src="./Assets/Icons/github_icon.png" alt="Ícone com a logo do Github">
                     </a>
                     <a target="_blank" href="https://www.linkedin.com/in/pedro-henrique-miranda-de-vasconcelos">
-                        <img draggable="false" src="./Assets/Icons/linkedin_icon.png" alt="Ícone com a logo do Linkedin">
+                        <img draggable="false" src="./Assets/Icons/linkedin_icon.png"
+                            alt="Ícone com a logo do Linkedin">
                     </a>
                 </div>
             </div>
         </main>
-        
-        <script src="" async defer></script>
-    </body>
+    </div>
+
+    <script src="JS/navbar_toggle.js" defer></script>
+</body>
+
 </html>

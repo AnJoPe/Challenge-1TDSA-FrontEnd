@@ -11,11 +11,11 @@
 </head>
 
 <body>
-    <nav class="navbar-esquerda">
+    <nav id="navbar-esquerda-selector" class="navbar-esquerda">
         <div class="relative-parent">
-            <img src="Assets/Icons/arrow_back_icon.svg" alt="Seta para a esquerda. Sinaliza a função de fechar o menu de links" class="close-menu">
+            <img src="Assets/Icons/arrow_back_icon.svg" onclick="navbar_toggle()" alt="Seta para a esquerda. Sinaliza a função de fechar o menu de links" id="close-menu-selector" class="close-menu">
             <img class="logo-hc" draggable="false" src="Assets/logo_hc.png" alt="Logo do Hospital das Clínicas">
-            <ul class="lista-links-menu">
+            <ul id="lista-links-menu-selector" class="lista-links-menu">
                 <a href="index.html">
                     <li>
                         Home
@@ -43,7 +43,7 @@
                 </ol>
         </div>
     </nav>
-    <div class="estrutura-pagina-menu">
+    <div id="estrutura-pagina-menu-selector" class="estrutura-pagina-menu">
         <header class="header-page">
             <div class="background-colorido-header">
                 <h2>Portal do Paciente</h2>
@@ -98,7 +98,7 @@
         </main>
     </div>
 
-    <script src="JS/script.js" async defer></script>
+    <script src="JS/navbar_toggle.js" defer></script>
 </body>
 
 </html>

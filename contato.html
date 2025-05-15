@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Contato</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="CSS/contato.css">
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contato</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/contato.css">
+</head>
+
+<body>
+    <nav id="navbar-esquerda-selector" class="navbar-esquerda">
+        <div class="relative-parent">
+            <img src="Assets/Icons/arrow_back_icon.svg" onclick="navbar_toggle()"
+                alt="Seta para a esquerda. Sinaliza a função de fechar o menu de links" id="close-menu-selector"
+                class="close-menu">
+            <img class="logo-hc" draggable="false" src="Assets/logo_hc.png" alt="Logo do Hospital das Clínicas">
+            <ul id="lista-links-menu-selector" class="lista-links-menu">
+                <a href="index.html">
+                    <li>
+                        Home
+                        <img src="Assets/Icons/home_icon.svg" alt="">
+                    </li>
+                </a>
+                <a href="">
+                    <li>
+                        FAQ
+                        <img src="Assets/Icons/faq_icon.svg" alt="">
+                    </li>
+                </a>
+                <a href="contato.html">
+                    <li>
+                        Contato
+                        <img src="Assets/Icons/contato.svg" alt="">
+                    </li>
+                </a>
+                <a href="quem_somos.html">
+                    <li>
+                        Quem somos
+                        <img src="Assets/Icons/quem_somos_icon.svg" alt="">
+                    </li>
+                </a>
+                </ol>
+        </div>
+    </nav>
+    <div id="estrutura-pagina-menu-selector" class="estrutura-pagina-menu">
         <header class="header-page">
             <div class="background-colorido-header">
                 <h2>Contato</h2>
@@ -23,15 +60,18 @@
                     <ul id="lista-formas-de-contato-hc">
                         <li>
                             <span>Tel.:</span>(11) 2661-1048
-                            <img draggable="false" src="Assets/Icons/contato.svg" alt="Ícone de um telefone, sinalizando que o número descrito pode ser contatado via telefone.">
+                            <img draggable="false" src="Assets/Icons/contato.svg"
+                                alt="Ícone de um telefone, sinalizando que o número descrito pode ser contatado via telefone.">
                         </li>
                         <li>
                             <span>Tel.:</span>(11) 2661-1561
-                            <img draggable="false" src="Assets/Icons/contato.svg" alt="Ícone de um telefone, sinalizando que o número descrito pode ser contatado via telefone.">
+                            <img draggable="false" src="Assets/Icons/contato.svg"
+                                alt="Ícone de um telefone, sinalizando que o número descrito pode ser contatado via telefone.">
                         </li>
                         <li>
                             <span>E-mail:</span>ouvidoria.geral@hc.fm.usp.br
-                            <img draggable="false" src="Assets/Icons/email.svg" alt="Ícone de um email, sinalizando que o email descrito pode ser contatado via email.">
+                            <img draggable="false" src="Assets/Icons/email.svg"
+                                alt="Ícone de um email, sinalizando que o email descrito pode ser contatado via email.">
                         </li>
                     </ul>
                 </div>
@@ -52,21 +92,24 @@
                     <div id="linha-superior-form">
                         <label for="input-form-nome">
                             Insira o seu nome:
-                            <input id="input-form-nome" placeholder="Digite aqui..." class="input-formulario-contato" type="text">
+                            <input id="input-form-nome" placeholder="Digite aqui..." class="input-formulario-contato"
+                                type="text">
                         </label>
-    
+
                         <label for="input-form-email">
                             Insira o seu email:
-                            <input id="input-form-email" placeholder="Digite aqui..." class="input-formulario-contato" type="email">
+                            <input id="input-form-email" placeholder="Digite aqui..." class="input-formulario-contato"
+                                type="email">
                         </label>
                     </div>
 
                     <div id="linha-inferior-form">
                         <label for="input-form-assunto">
                             Assunto:
-                            <input id="input-form-assunto" placeholder="Digite aqui..." class="input-formulario-contato" type="text">
+                            <input id="input-form-assunto" placeholder="Digite aqui..." class="input-formulario-contato"
+                                type="text">
                         </label>
-                        
+
                         <label for="textarea-formulario-contato">
                             Insira o corpo do email:
                             <textarea id="textarea-formulario-contato"></textarea>
@@ -74,12 +117,17 @@
                     </div>
                     <button type="submit">
                         Enviar
-                        <img src="Assets/Icons/email_branco_icon.svg" alt="Ícone de um email, dentro do botão. Sinaliza que ao clicá-lo, o email redigido acima será enviado por email.">
-                        <img src="Assets/Icons/seta_direita_icon.svg" alt="Ícone de uma seta para a direita, dentro do botão. Sinaliza que ao clicá-lo, o email será enviado.">
+                        <img src="Assets/Icons/email_branco_icon.svg"
+                            alt="Ícone de um email, dentro do botão. Sinaliza que ao clicá-lo, o email redigido acima será enviado por email.">
+                        <img src="Assets/Icons/seta_direita_icon.svg"
+                            alt="Ícone de uma seta para a direita, dentro do botão. Sinaliza que ao clicá-lo, o email será enviado.">
                     </button>
                 </form>
             </section>
         </main>
-        <script src="" async defer></script>
-    </body>
+    </div>
+
+    <script src="JS/navbar_toggle.js" defer></script>
+</body>
+
 </html>
