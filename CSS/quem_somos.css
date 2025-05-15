@@ -9,6 +9,8 @@ main {
     justify-content: center;
     align-items: center;
     gap: 48px;
+
+    margin-top: 32px;
 }
 
 .card-integrante {
@@ -46,8 +48,6 @@ main {
 }
 .foto-integrante > img {
     height: 100%;
-
-    /* border-radius: 50%; */
 }
 .card-integrante > h4 {
     font-size: x-large;

@@ -1,0 +1,237 @@
+@import './global_styles.css';
+@import './fonts.css';
+
+main {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 24px;
+}
+
+#informacoes-contato-hc {
+    width: 100%;
+    height: 28vh;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+#esquerda-informacoes-contato-hc {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#esquerda-informacoes-contato-hc h3 {
+    width: 65%;
+
+    user-select: none;
+
+    color: var(--primary-blue);
+
+    font-size: xx-large;
+    font-family: InterItalic;
+}
+#lista-formas-de-contato-hc {
+    font-size: 1.25rem;
+    text-decoration: dotted;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+#lista-formas-de-contato-hc li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 8px;
+}
+#lista-formas-de-contato-hc li span {
+    font-weight: bold;
+    user-select: none;
+}
+#lista-formas-de-contato-hc li img {
+    height: 1.75rem;
+
+    user-select: none;
+}
+
+
+#direita-informacoes-endereco-hc {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#direita-informacoes-endereco-hc h3 {
+    color: var(--primary-blue);
+
+    user-select: none;
+
+    font-size: xx-large;
+    font-family: InterItalic;
+}
+
+#lista-endereco-hc {
+    font-size: 1.25rem;
+    text-decoration: dotted;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+#lista-endereco-hc li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 8px;
+}
+#lista-endereco-hc li span {
+    font-weight: bold;
+    user-select: none;
+}
+
+
+#formulario-contato-integrantes {
+    width: 75%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#formulario-contato-integrantes h2 {
+    color: var(--primary-blue);
+
+    font-size: 2.25rem;
+    font-family: InterItalic;
+
+    user-select: none;
+}
+
+#formulario-contato-integrantes h4 {
+    color: var(--primary-blue);
+
+    font-size: 1rem;
+    font-family: Inter;
+    font-weight: 400;
+
+    user-select: none;
+
+    margin-bottom: 16px;
+}
+
+#formulario-contato-integrantes form {
+    width: 70%;
+
+    align-self: center;
+
+    border: 2px solid var(--primary-blue);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    padding: 16px;
+}
+
+#formulario-contato-integrantes form label {
+    color: var(--primary-blue);
+
+    width: 45%;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.input-formulario-contato {
+    width: 100%;
+    margin-top: 8px;
+
+    font-size: 1.25rem;
+
+    outline: none;
+
+    padding: 0 8px;
+
+    border: transparent;
+    border-bottom: 2px solid var(--primary-blue);
+}
+
+#formulario-contato-integrantes form #linha-superior-form {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#formulario-contato-integrantes form #linha-inferior-form {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#textarea-formulario-contato {
+    width: 100%;
+    height: 120px;
+
+    font-size: 1rem;
+
+    border: 1px solid var(--primary-blue);
+    border-radius: 15px;
+
+    padding: 8px;
+    margin-top: 8px;
+
+    resize: none;
+    outline: none;
+}
+
+#formulario-contato-integrantes form button {
+    background-color: var(--primary-blue);
+
+    box-shadow: 10px 10px 20px -5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 10px 10px 20px -5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 20px -5px rgba(0,0,0,0.5);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    align-self: flex-end;
+
+    min-width: 150px;
+
+    border: transparent;
+    border-radius: 8px;
+
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white;
+
+    cursor: pointer;
+
+    padding: 8px;
+}
+#formulario-contato-integrantes form button:hover {
+    background-color: #006bb3;
+}
