@@ -5,6 +5,8 @@ main {
     width: 90%;
     height: fit-content;
 
+    align-self: center;
+
     display: flex;
     flex-direction: column;
 
@@ -28,6 +30,7 @@ main {
 
     font-size: 3rem;
 }
+
 .titulo-home-page h3 {
     color: var(--accent-color);
 
@@ -36,6 +39,7 @@ main {
 
     font-size: 2.5rem;
 }
+
 #descricao-website {
     font-family: InterItalic;
     font-weight: 500;
@@ -43,10 +47,11 @@ main {
     color: var(--primary-blue);
 
     width: 30%;
-    
+
     text-align: end;
     align-self: flex-end;
 }
+
 #explicacao-conteudo-website {
     font-family: InterItalic;
     font-weight: 500;
@@ -86,9 +91,11 @@ main {
 
     cursor: default;
 }
+
 #lista-guias-de-acesso a {
     text-decoration: none;
 }
+
 #lista-guias-de-acesso a li {
     display: flex;
     justify-content: space-between;
@@ -109,6 +116,7 @@ main {
 
     background-color: var(--secondary-blue);
 }
+
 #lista-guias-de-acesso a li:hover {
     background-color: #7dadcc;
 }
