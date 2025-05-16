@@ -17,6 +17,7 @@ Criar uma plataforma web informativa e interativa para o **Hospital das Clínica
 ## 📁 Estrutura de Pastas e Arquivos
 Hospital_das_Clinicas
 
+```text
 ├── Assets
 │ ├── Fonts
 │ ├── Guias
@@ -45,8 +46,7 @@ Hospital_das_Clinicas
 │ └── registro_paciente.js
 ├── *.html
 └── README.MD
-
-
+```
 
 ---
 
