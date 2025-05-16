@@ -88,31 +88,31 @@
             <section id="formulario-contato-integrantes">
                 <h2>Estamos aqui para ajudar!</h2>
                 <h4>Nos envie um email!</h4>
-                <form action="">
+                <form id="form-email" class="formulario-wrapper">
                     <div id="linha-superior-form">
-                        <label for="input-form-nome">
+                        <label for="input-form-nome" id="label-form-nome" class="label-formulario">
                             Insira o seu nome:
-                            <input id="input-form-nome" placeholder="Digite aqui..." class="input-formulario-contato"
+                            <input id="input-form-nome" onfocus="resetInput('input-nome')" placeholder="Digite aqui..." class="input-formulario-contato"
                                 type="text">
                         </label>
 
-                        <label for="input-form-email">
+                        <label for="input-form-email" id="label-form-email" class="label-formulario">
                             Insira o seu email:
-                            <input id="input-form-email" placeholder="Digite aqui..." class="input-formulario-contato"
+                            <input id="input-form-email" onfocus="resetInput('input-email')" placeholder="Digite aqui..." class="input-formulario-contato"
                                 type="email">
                         </label>
                     </div>
 
                     <div id="linha-inferior-form">
-                        <label for="input-form-assunto">
+                        <label for="input-form-assunto" id="label-form-assunto" class="label-formulario">
                             Assunto:
-                            <input id="input-form-assunto" placeholder="Digite aqui..." class="input-formulario-contato"
+                            <input id="input-form-assunto" onfocus="resetInput('input-assunto')" placeholder="Digite aqui..." class="input-formulario-contato"
                                 type="text">
                         </label>
 
-                        <label for="textarea-formulario-contato">
+                        <label for="textarea-formulario-contato" id="label-form-corpo" class="label-formulario">
                             Insira o corpo do email:
-                            <textarea id="textarea-formulario-contato"></textarea>
+                            <textarea placeholder="Digite aqui..." onfocus="resetInput('input-corpo')" id="textarea-formulario-contato" class="textarea-form-contato"></textarea>
                         </label>
                     </div>
                     <button type="submit">
@@ -127,6 +127,7 @@
         </main>
     </div>
 
+    <script src="JS/contato.js"></script>
     <script src="JS/navbar_toggle.js" defer></script>
 </body>
 

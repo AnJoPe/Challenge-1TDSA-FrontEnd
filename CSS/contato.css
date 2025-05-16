@@ -134,7 +134,7 @@ main {
     margin-bottom: 16px;
 }
 
-#formulario-contato-integrantes form {
+.formulario-wrapper {
     width: 70%;
 
     align-self: center;
@@ -148,9 +148,11 @@ main {
     gap: 16px;
 
     padding: 16px;
+
+    margin-bottom: 32px;
 }
 
-#formulario-contato-integrantes form label {
+.label-formulario {
     color: var(--primary-blue);
 
     width: 45%;
@@ -170,27 +172,27 @@ main {
 
     outline: none;
 
-    padding: 0 8px;
+    padding: 8px 8px;
 
     border: transparent;
     border-bottom: 2px solid var(--primary-blue);
 }
 
-#formulario-contato-integrantes form #linha-superior-form {
+.formulario-wrapper #linha-superior-form {
     width: 100%;
 
     display: flex;
     justify-content: space-around;
 }
 
-#formulario-contato-integrantes form #linha-inferior-form {
+.formulario-wrapper #linha-inferior-form {
     width: 100%;
 
     display: flex;
     justify-content: space-around;
 }
 
-#textarea-formulario-contato {
+.textarea-form-contato {
     width: 100%;
     height: 120px;
 
@@ -206,7 +208,7 @@ main {
     outline: none;
 }
 
-#formulario-contato-integrantes form button {
+.formulario-wrapper button {
     background-color: var(--primary-blue);
 
     box-shadow: 10px 10px 20px -5px rgba(0,0,0,0.5);
@@ -232,6 +234,21 @@ main {
 
     padding: 8px;
 }
-#formulario-contato-integrantes form button:hover {
+.formulario-wrapper button:hover {
     background-color: #006bb3;
+}
+
+.label-form-invalida {
+    color: red;
+}
+.input-formulario-invalido {
+    border-color: red;
+}
+.input-formulario-invalido::placeholder {
+    color: rgba(197, 43, 43, 0.75);
+    font-size: .95rem;
+}
+
+.form-invalido {
+    border-color: red
 }
