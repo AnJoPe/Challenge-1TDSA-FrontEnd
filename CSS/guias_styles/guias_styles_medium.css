@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+    .etapa-titulo {
+        height: 5vh;
+    }
+
+    .etapa-titulo>h3 {
+        font-size: 1.85rem;
+    }
+
+    .etapa-titulo>a {
+        font-size: 1.15rem;
+    }
+
+    .etapa-imagem {
+        width: 85%;
+    }
+
+    .etapa-paragrafo {
+        font-size: 1.15rem;
+    }
+
+    .botao-etapa {
+        font-size: .95rem;
+    }
+
+    .divider-guias {
+        height: .65vh;
+    }
+
+    .etapa-imagem>img {
+        border-radius: 32px;
+        border: 2px solid var(--primary-blue);
+
+        padding: 12px;
+
+        width: 100%;
+    }
+}

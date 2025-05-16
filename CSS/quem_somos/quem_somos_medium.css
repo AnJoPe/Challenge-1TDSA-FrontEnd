@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-bottom: 32px;
+    }
+
+    .card-integrante {
+        width: 350px;
+        height: 460px;
+    }
+
+    .foto-integrante {
+        width: 70%;
+    }
+
+    .card-integrante>h4 {
+        font-size: 1.35rem;
+    }
+
+    .card-integrante>h5 {
+        font-size: 1.1rem;
+    }
+}
