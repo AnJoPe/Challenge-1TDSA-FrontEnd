@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Guia de Prescrições</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/prescricoes.css">
+</head>
+
+<body>
+    <nav id="navbar-esquerda-selector" class="navbar-esquerda">
+        <div class="relative-parent">
+            <img src="Assets/Icons/arrow_back_icon.svg" onclick="navbar_toggle()" alt="Seta para a esquerda. Sinaliza a função de fechar o menu de links" id="close-menu-selector" class="close-menu">
+            <img class="logo-hc" draggable="false" src="Assets/logo_hc.png" alt="Logo do Hospital das Clínicas">
+            <ul id="lista-links-menu-selector" class="lista-links-menu">
+                <a href="index.html">
+                    <li>
+                        Home
+                        <img src="Assets/Icons/home_icon.svg" alt="">
+                    </li>
+                </a>
+                <a href="faq.html">
+                    <li>
+                        FAQ
+                        <img src="Assets/Icons/faq_icon.svg" alt="">
+                    </li>
+                </a>
+                <a href="contato.html">
+                    <li>
+                        Contato
+                        <img src="Assets/Icons/contato.svg" alt="">
+                    </li>
+                </a>
+                <a href="quem_somos.html">
+                    <li>
+                        Quem somos
+                        <img src="Assets/Icons/quem_somos_icon.svg" alt="">
+                    </li>
+                </a>
+                </ol>
+        </div>
+    </nav>
+    <div id="estrutura-pagina-menu-selector" class="estrutura-pagina-menu">
+        <header class="header-page">
+            <div class="background-colorido-header">
+                <h2>Acessar as minhas Prescrições</h2>
+                <img src="./Assets/Icons/prescricoes_azul_icon.svg" alt="Ícone de Remédio Simbolizando a página de guia de prescrições">
+            </div>
+        </header>
+        <main>
+            <article id="etapa-1-prescricoes" class="etapa-guia">
+                <div class="etapa-titulo">
+                    <h3>Etapa 1</h3>
+                    <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a>
+                </div>
+                <figure class="etapa-imagem" id="etapa-imagem-1">
+                    <img draggable="false" src="../Assets/Guias/Prescricoes/etapa_1.png" alt="">
+                    <figcaption class="etapa-paragrafo">Acesse a aba <span>“Minhas Receitas”</span> no <a href="https://portaldopaciente.hc.fm.usp.br/">portal do paciente</a> do Hospital das Clínicas.</figcaption>
+                </figure>
+
+                <div class="linha-botoes-etapa">
+                    <a class="botao-etapa" href="#etapa-2-prescricoes">Próxima Etapa</a>
+                </div>
+            </article>
+
+            <div class="divider-guias"></div>
+
+            <article id="etapa-2-prescricoes" class="etapa-guia">
+                <div class="etapa-titulo">
+                    <h3>Etapa 2</h3>
+                    <!-- <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a> -->
+                </div>
+                <figure class="etapa-imagem" id="etapa-imagem-2">
+                    <img draggable="false" src="../Assets/Guias/Prescricoes/etapa_2.png" alt="">
+                    <figcaption class="etapa-paragrafo">Nessa aba, as <span>prescrições receitadas</span> por médicos aparecerão por <span>ordem decrescente de vencimento</span>. É possível <span>imprimir</span> ou <span>salvar</span> em pdf as receitas, clicando em <span>“Visualizar”</span></figcaption>
+                </figure>
+                
+                <div class="linha-botoes-etapa">
+                    <a class="botao-etapa" href="#etapa-1-prescricoes">Finalizar Guia</a>
+                </div>
+            </article>
+        </main>
+    </div>
+
+    <script src="JS/navbar_toggle.js" defer></script>
+</body>
+
+</html>
