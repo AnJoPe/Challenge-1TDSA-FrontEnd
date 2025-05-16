@@ -101,7 +101,7 @@ formulario.addEventListener("submit", (e) => {
         return;
     }
 
-    const emails = 'pedrohm2709@gmail.com,andrerosacolombo18@gmail.com,pessoa3@example.com';
+    const emails = 'pedrohm2709@gmail.com,andrerosacolombo18@gmail.com,jose.diogo100407@gmail.com';
     const assunto = `Email de ${input_nome.value}: ${input_assunto.value}`;
     const corpo = input_corpo.value;
     const enviar_email = `mailto:${emails}?subject=${encodeURIComponent(assunto)}&body=${encodeURIComponent(corpo)}`;

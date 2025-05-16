@@ -1,0 +1,130 @@
+@media (max-width: 600px) {
+    main {
+        margin-top: 104px;
+    }
+
+    .formulario-wrapper {
+        width: 90%;
+
+        margin-top: 32px;
+    }
+
+    #informacoes-contato-hc {
+        width: 90%;
+        height: 25vh;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 48px;
+
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+
+    #esquerda-informacoes-contato-hc {
+        width: 100%;
+    }
+    #esquerda-informacoes-contato-hc h3 {
+        width: 70%;
+
+        font-size: 1.65rem;
+    }
+
+    #lista-formas-de-contato-hc {
+        font-size: 1.15rem;
+    }
+
+    #lista-formas-de-contato-hc li img {
+        height: 1.25rem;
+    }
+
+    #direita-informacoes-endereco-hc {
+        width: 100%;
+    }
+
+    #direita-informacoes-endereco-hc h3 {
+        font-size: 1.5rem;
+    }
+
+    #lista-endereco-hc {
+        font-size: 1.15rem;
+    }
+
+    #formulario-contato-integrantes {
+        width: 100%;
+
+        margin-top: 80px;
+    }
+
+    .formulario-wrapper {
+        margin-top: 0;
+        margin-bottom: 24px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    #formulario-contato-integrantes h2 {
+        font-size: 1.5rem;
+
+        margin-left: 24px;
+    }
+
+    #formulario-contato-integrantes h4 {
+        font-size: 1rem;
+
+        margin-left: 24px;
+    }
+
+    #linha-superior-form {
+        display: flex;
+        flex-direction: column;
+        
+        gap: 16px;
+    }
+
+    #linha-inferior-form {
+        display: flex;
+        flex-direction: column;
+
+        gap: 16px;
+    }
+
+    .label-formulario {
+        width: 100%;
+
+        font-size: 1rem;
+    }
+
+    .input-formulario-contato {
+        font-size: .95rem;
+    }
+
+    .textarea-form-contato {
+        font-size: .95rem;
+
+        height: 110px;
+    }
+
+    .botao-formulario {
+        width: 150px;
+        height: 40px;
+    }
+
+    .input-formulario-invalido::placeholder {
+        font-size: .95rem;
+    }
+
+    .overflow-left {
+        left: -85%;
+    }
+
+    .email-enviado {
+        gap: 32px;
+    }
+
+    .email-enviado-remover-texto {
+        width: 90px;
+    }
+}
