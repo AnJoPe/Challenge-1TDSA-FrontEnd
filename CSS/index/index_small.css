@@ -1,0 +1,35 @@
+@media (min-width: 600px) {
+    .titulo-home-page h2 {
+        margin-top: 12px;
+        
+        font-size: 2.45rem;
+    }
+
+    .titulo-home-page h3 {
+        font-size: 1.9rem;
+    }
+
+    #descricao-website {
+        font-size: 1.2rem;
+
+        margin-top: 12px;
+
+        width: 45%;
+    }
+
+    #explicacao-conteudo-website {
+        font-size: 1.2rem;
+
+        width: 90%;
+    }
+
+    #guias-de-acesso-title {
+        font-size: 2.7rem;
+    }
+
+    #lista-guias-de-acesso a li {
+        min-width: 390px;
+
+        font-size: 1.65rem;
+    }
+}

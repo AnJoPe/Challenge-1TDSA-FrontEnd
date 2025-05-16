@@ -6,11 +6,19 @@
     .header-page {
         height: 13dvh;
 
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
 
     .header-page img {
         height: 80%;
+    }
+
+    .background-colorido-header {
+        padding: 12px 40px;
+
+        border-radius: 20px;
+
+        font-size: 1.25rem;
     }
 
     .navbar-esquerda {

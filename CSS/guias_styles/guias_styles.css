@@ -34,13 +34,11 @@
     align-items: center;
 }
 
-.etapa-imagem > img {
+.etapas-imagens-figure {
     border-radius: 32px;
     border: 2px solid var(--primary-blue);
 
     padding: 12px;
-
-    width: 90%;
 }
 
 .etapa-paragrafo {

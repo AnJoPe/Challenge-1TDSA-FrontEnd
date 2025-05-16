@@ -1,6 +1,9 @@
 const navbar_esquerda = document.getElementById('navbar-esquerda-selector');
 const lista_links_menu = document.getElementById('lista-links-menu-selector');
+
 const close_menu = document.getElementById('close-menu-selector');
+const open_menu = document.getElementById('telefone-navbar-sel');
+
 const estrutura_pagina_menu = document.getElementById('estrutura-pagina-menu-selector');
 
 let mostrando_navbar = true;

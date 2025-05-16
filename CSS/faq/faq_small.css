@@ -1,0 +1,23 @@
+@media (min-width: 600px) {
+    .pergunta-frequente {
+        width: 90%;
+        min-height: 50px;
+    }
+
+    .titulo-pergunta-frequente img {
+        height: 25px;
+    }
+
+    .titulo-pergunta-frequente h3 {
+        font-size: 1.35rem;
+    }
+
+    .paragrafo-pergunta {
+        font-size: 1.15rem;
+    }
+
+    .divider-faq {
+        width: 80%;
+        height: .35rem;
+    }
+}

@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="CSS/prescricoes/prescricoes.css">
+    <link rel="stylesheet" href="CSS/prescricoes/prescricoes_small.css">
     <link rel="stylesheet" href="CSS/prescricoes/prescricoes_medium.css">
     <link rel="stylesheet" href="CSS/prescricoes/prescricoes_large.css">
     <link rel="stylesheet" href="CSS/prescricoes/prescricoes_extra_large.css">
@@ -56,6 +57,12 @@
                     alt="Ícone de Remédio Simbolizando a página de guia de prescrições">
             </div>
         </header>
+        <div id="telefone-navbar-sel" class="telefone-navbar-selector">
+            <div onclick="navbar_toggle()" class="telefone-navbar-wrapper">
+                <img src="Assets/Icons/menu_hamburger_icon.svg" alt="">
+                Menu
+            </div>
+        </div>
         <main>
             <article id="etapa-1-prescricoes" class="etapa-guia">
                 <div class="etapa-titulo">
@@ -64,7 +71,7 @@
                         paciente</a>
                 </div>
                 <figure class="etapa-imagem" id="etapa-imagem-1">
-                    <img draggable="false" src="../Assets/Guias/Prescricoes/etapa_1.png" alt="">
+                    <img draggable="false" id="etapa-1-prescricao-imagem" class="etapas-imagens-figure" src="../Assets/Guias/Prescricoes/etapa_1.png" alt="">
                     <figcaption class="etapa-paragrafo">Acesse a aba <span>“Minhas Receitas”</span> no <a
                             target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">portal do paciente</a> do
                         Hospital das Clínicas.</figcaption>
@@ -83,7 +90,7 @@
                     <!-- <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a> -->
                 </div>
                 <figure class="etapa-imagem" id="etapa-imagem-2">
-                    <img draggable="false" src="../Assets/Guias/Prescricoes/etapa_2.png" alt="">
+                    <img draggable="false" class="etapa-pequena-imagem" src="../Assets/Guias/Prescricoes/etapa_2.png" alt="">
                     <figcaption class="etapa-paragrafo">Nessa aba, as <span>prescrições receitadas</span> por médicos
                         aparecerão por <span>ordem decrescente de vencimento</span>. É possível <span>imprimir</span> ou
                         <span>salvar</span> em pdf as receitas, clicando em <span>“Visualizar”</span></figcaption>
@@ -96,6 +103,7 @@
         </main>
     </div>
 
+    <script src="JS/prescricoes.js"></script>
     <script src="JS/navbar_toggle.js" defer></script>
 </body>
 

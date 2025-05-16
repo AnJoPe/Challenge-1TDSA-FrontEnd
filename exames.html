@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="CSS/exames/exames.css">
+    <link rel="stylesheet" href="CSS/exames/exames_small.css">
     <link rel="stylesheet" href="CSS/exames/exames_medium.css">
     <link rel="stylesheet" href="CSS/exames/exames_large.css">
     <link rel="stylesheet" href="CSS/exames/exames_extra_large.css">
@@ -16,7 +17,9 @@
 <body>
     <nav id="navbar-esquerda-selector" class="navbar-esquerda">
         <div class="relative-parent">
-            <img src="Assets/Icons/arrow_back_icon.svg" onclick="navbar_toggle()" alt="Seta para a esquerda. Sinaliza a função de fechar o menu de links" id="close-menu-selector" class="close-menu">
+            <img src="Assets/Icons/arrow_back_icon.svg" onclick="navbar_toggle()"
+                alt="Seta para a esquerda. Sinaliza a função de fechar o menu de links" id="close-menu-selector"
+                class="close-menu">
             <img class="logo-hc" draggable="false" src="Assets/logo_hc.png" alt="Logo do Hospital das Clínicas">
             <ul id="lista-links-menu-selector" class="lista-links-menu">
                 <a href="index.html">
@@ -50,18 +53,28 @@
         <header class="header-page">
             <div class="background-colorido-header">
                 <h2>Visualizar Resultados de Exames</h2>
-                <img src="./Assets/Icons/exames_azul_icon.svg" alt="Ícone de Exame com um pequeno A positivo ao lado. Simbolizando a página de guia de exames">
+                <img src="./Assets/Icons/exames_azul_icon.svg"
+                    alt="Ícone de Exame com um pequeno A positivo ao lado. Simbolizando a página de guia de exames">
             </div>
         </header>
+        <div id="telefone-navbar-sel" class="telefone-navbar-selector">
+            <div onclick="navbar_toggle()" class="telefone-navbar-wrapper">
+                <img src="Assets/Icons/menu_hamburger_icon.svg" alt="">
+                Menu
+            </div>
+        </div>
         <main>
             <article id="etapa-1-exames" class="etapa-guia">
                 <div class="etapa-titulo">
                     <h3>Etapa 1</h3>
-                    <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a>
+                    <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do
+                        paciente</a>
                 </div>
                 <figure class="etapa-imagem" id="etapa-imagem-1">
-                    <img draggable="false" src="../Assets/Guias/Exames/etapa_1.png" alt="">
-                    <figcaption class="etapa-paragrafo">Acesse a aba <span>“Meus Resultados"</span>, no <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">portal do paciente</a> do Hospital das Clínicas.</figcaption>
+                    <img draggable="false" id="etapa-1-exames-imagem" class="etapas-imagens-figure" src="../Assets/Guias/Exames/etapa_1.png" alt="">
+                    <figcaption class="etapa-paragrafo">Acesse a aba <span>“Meus Resultados"</span>, no <a
+                            target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">portal do paciente</a> do
+                        Hospital das Clínicas.</figcaption>
                 </figure>
 
                 <div class="linha-botoes-etapa">
@@ -77,10 +90,12 @@
                     <!-- <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a> -->
                 </div>
                 <figure class="etapa-imagem" id="etapa-imagem-2">
-                    <img draggable="false" src="../Assets/Guias/Exames/etapa_2.png" alt="">
-                    <figcaption class="etapa-paragrafo">Nessa aba, aparecerão os <span>resultados</span> de todos os seus exames, eles poderão ser <span>impressos</span> ou <span>salvos</span> como um arquivo pdf.</figcaption>
+                    <img draggable="false" class="etapa-pequena-imagem" src="../Assets/Guias/Exames/etapa_2.png" alt="">
+                    <figcaption class="etapa-paragrafo">Nessa aba, aparecerão os <span>resultados</span> de todos os
+                        seus exames, eles poderão ser <span>impressos</span> ou <span>salvos</span> como um arquivo pdf.
+                    </figcaption>
                 </figure>
-                
+
                 <div class="linha-botoes-etapa">
                     <a class="botao-etapa" href="#etapa-1-exames">Etapa Anterior</a>
                     <a class="botao-etapa" href="#etapa-3-exames">Próximo Adendo</a>
@@ -95,10 +110,14 @@
                     <!-- <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a> -->
                 </div>
                 <figure class="etapa-imagem" id="etapa-imagem-2">
-                    <img draggable="false" src="../Assets/Guias/Exames/adendo_1.png" alt="">
-                    <figcaption class="etapa-paragrafo"><span>Exames</span> aparecerão com uma dessas duas imagens, <span>classificando-os</span> como <span>exames de imagem</span> e <span>exames laboratoriais</span>. São apenas <span>indicações visuais</span> e não alteram em nada o <span>processo</span>.</figcaption>
+                    <img draggable="false" class="etapa-pequena-imagem" src="../Assets/Guias/Exames/adendo_1.png" alt="">
+                    <figcaption class="etapa-paragrafo"><span>Exames</span> aparecerão com uma dessas duas imagens,
+                        <span>classificando-os</span> como <span>exames de imagem</span> e <span>exames
+                            laboratoriais</span>. São apenas <span>indicações visuais</span> e não alteram em nada o
+                        <span>processo</span>.
+                    </figcaption>
                 </figure>
-                
+
                 <div class="linha-botoes-etapa">
                     <a class="botao-etapa" href="#etapa-1-exames">Finalizar Guia</a>
                 </div>
@@ -106,6 +125,7 @@
         </main>
     </div>
 
+    <script src="JS/exames.js"></script>
     <script src="JS/navbar_toggle.js" defer></script>
 </body>
 

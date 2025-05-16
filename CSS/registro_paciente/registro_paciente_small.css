@@ -1,0 +1,7 @@
+@media (min-width: 600px) {
+    main {
+        margin-top: 16px;
+
+        width: 90%;
+    }
+}

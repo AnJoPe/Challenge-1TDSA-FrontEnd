@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="CSS/agendamentos/agendamentos.css">
+    <link rel="stylesheet" href="CSS/agendamentos/agendamentos_small.css">
     <link rel="stylesheet" href="CSS/agendamentos/agendamentos_medium.css">
     <link rel="stylesheet" href="CSS/agendamentos/agendamentos_large.css">
     <link rel="stylesheet" href="CSS/agendamentos/agendamentos_extra_large.css">
@@ -56,6 +57,12 @@
                     alt="Ícone de Telefone simbolizando a página de contato">
             </div>
         </header>
+        <div id="telefone-navbar-sel" class="telefone-navbar-selector">
+            <div onclick="navbar_toggle()" class="telefone-navbar-wrapper">
+                <img src="Assets/Icons/menu_hamburger_icon.svg" alt="">
+                Menu
+            </div>
+        </div>
         <main>
             <article id="etapa-1-agendamento" class="etapa-guia">
                 <div class="etapa-titulo">
@@ -64,7 +71,7 @@
                         paciente</a>
                 </div>
                 <figure class="etapa-imagem" id="etapa-imagem-1">
-                    <img draggable="false" src="../Assets/Guias/Agendamentos/etapa_1.png" alt="">
+                    <img draggable="false" class="etapas-imagens-figure" id="etapa-1-agendamento-imagem" src="./Assets/Guias/Agendamentos/etapa_1.png" alt="">
                     <figcaption class="etapa-paragrafo">Acesse a aba <span>“Minha Agenda”</span>, no <a target="_blank"
                             href="https://portaldopaciente.hc.fm.usp.br/">portal do paciente</a> do Hospital das
                         Clínicas.</figcaption>
@@ -83,7 +90,7 @@
                     <!-- <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a> -->
                 </div>
                 <figure class="etapa-imagem" id="etapa-imagem-2">
-                    <img draggable="false" src="../Assets/Guias/Agendamentos/etapa_2.png" alt="">
+                    <img draggable="false" class="etapa-pequena-imagem" src="../Assets/Guias/Agendamentos/etapa_2.png" alt="">
                     <figcaption class="etapa-paragrafo">Nessa aba, os agendamentos feitos aparecerão listados. Estará
                         informado no agendamento o <span>tipo</span>, a <span>data/hora</span>, o <span>instituto</span>
                         onde será realizado e a <span>especialidade</span> do mesmo.</figcaption>
@@ -103,7 +110,7 @@
                     <!-- <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a> -->
                 </div>
                 <figure class="etapa-imagem" id="etapa-imagem-3">
-                    <img draggable="false" src="../Assets/Guias/Agendamentos/adendo_1.png" alt="">
+                    <img draggable="false" class="etapa-pequena-imagem" src="../Assets/Guias/Agendamentos/adendo_1.png" alt="">
                     <figcaption class="etapa-paragrafo">Ao clicar em <span>“Filipeta”</span>, uma aba de
                         <span>visualização do agendamento</span> será aberta, com algumas informações que podem vir a
                         ser importantes dependendo do <span>tipo de agendamento</span>. <span>Leia bem o
@@ -126,7 +133,7 @@
                     <!-- <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a> -->
                 </div>
                 <figure class="etapa-imagem" id="etapa-imagem-3">
-                    <img draggable="false" src="../Assets/Guias/Agendamentos/adendo_2.png" alt="">
+                    <img draggable="false" class="etapa-pequena-imagem" src="../Assets/Guias/Agendamentos/adendo_2.png" alt="">
                     <figcaption class="etapa-paragrafo">Agendamentos aparecerão com um desses <span>quatro
                             ícones</span>, indicando o <span>tipo do agendamento</span>. São apenas indicações para que
                         o paciente tenha ciência de como deve se <span>preparar</span> para o evento.</figcaption>
@@ -139,6 +146,7 @@
         </main>
     </div>
 
+    <script src="JS/agendamentos.js"></script>
     <script src="JS/navbar_toggle.js" defer></script>
 </body>
 

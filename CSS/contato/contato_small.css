@@ -1,0 +1,96 @@
+@media (min-width: 600px) {
+    .formulario-wrapper {
+        width: 90%;
+        
+    }
+
+    #informacoes-contato-hc {
+        width: 90%;
+        height: 25vh;
+
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+
+    #esquerda-informacoes-contato-hc {
+        width: 65%;
+    }
+    #esquerda-informacoes-contato-hc h3 {
+        width: 70%;
+
+        font-size: 1.5rem;
+    }
+
+    #lista-formas-de-contato-hc {
+        font-size: 1rem;
+    }
+
+    #lista-formas-de-contato-hc li img {
+        height: 1.25rem;
+    }
+
+    #direita-informacoes-endereco-hc {
+        width: 40%;
+    }
+
+    #direita-informacoes-endereco-hc h3 {
+        font-size: 1.5rem;
+    }
+
+    #lista-endereco-hc {
+        font-size: 1rem;
+    }
+
+    #formulario-contato-integrantes {
+        width: 100%;
+    }
+
+    #formulario-contato-integrantes h2 {
+        font-size: 1.5rem;
+
+        margin-left: 24px;
+    }
+
+    #formulario-contato-integrantes h4 {
+        font-size: 1rem;
+
+        margin-left: 24px;
+    }
+
+    .label-formulario {
+        width: 45%;
+
+        font-size: 1rem;
+    }
+
+    .input-formulario-contato {
+        font-size: .95rem;
+    }
+
+    .textarea-form-contato {
+        font-size: .95rem;
+
+        height: 110px;
+    }
+
+    .botao-formulario {
+        width: 150px;
+        height: 40px;
+    }
+
+    .input-formulario-invalido::placeholder {
+        font-size: .95rem;
+    }
+
+    .overflow-left {
+        left: -85%;
+    }
+
+    .email-enviado {
+        gap: 32px;
+    }
+
+    .email-enviado-remover-texto {
+        width: 90px;
+    }
+}

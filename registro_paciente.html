@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="CSS/registro_paciente/registro_paciente.css">
+    <link rel="stylesheet" href="CSS/registro_paciente/registro_paciente_small.css">
     <link rel="stylesheet" href="CSS/registro_paciente/registro_paciente_medium.css">
     <link rel="stylesheet" href="CSS/registro_paciente/registro_paciente_large.css">
     <link rel="stylesheet" href="CSS/registro_paciente/registro_paciente_extra_large.css">
@@ -53,6 +54,12 @@
                 <img src="./Assets/Icons/portal_paciente_azul_icon.svg" alt="Ícone de uma pessoa. Simbolizando a página de guia de Registro de Pacientes">
             </div>
         </header>
+        <div id="telefone-navbar-sel" class="telefone-navbar-selector">
+            <div onclick="navbar_toggle()" class="telefone-navbar-wrapper">
+                <img src="Assets/Icons/menu_hamburger_icon.svg" alt="">
+                Menu
+            </div>
+        </div>
         <main>
             <article id="etapa-1-registro" class="etapa-guia">
                 <div class="etapa-titulo">
@@ -60,7 +67,7 @@
                     <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a>
                 </div>
                 <figure class="etapa-imagem" id="etapa-imagem-1">
-                    <img draggable="false" src="../Assets/Guias/Registro/etapa_1.png" alt="">
+                    <img draggable="false" id="etapa-1-registro-imagem" class="etapas-imagens-figure" src="../Assets/Guias/Registro/etapa_1.png" alt="">
                     <figcaption class="etapa-paragrafo">Escolha a forma de acessar o seu <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">portal do paciente</a>. Através do <span>painel de login</span> do HC, com a <span>etiqueta física</span> de paciente ou com o <span>registro no gov.br</span>.</figcaption>
                 </figure>
 
@@ -77,7 +84,7 @@
                     <!-- <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a> -->
                 </div>
                 <figure class="etapa-imagem" id="etapa-imagem-2">
-                    <img draggable="false" src="../Assets/Guias/Registro/etapa_2.png" alt="">
+                    <img draggable="false" class="etapas-imagens-figure" id="etapa-2-registro-imagem" src="../Assets/Guias/Registro/etapa_2.png" alt="">
                     <figcaption class="etapa-paragrafo">Acessando pela própria <span>plataforma</span> do Hospital das Clínicas, você irá inserir o seu <span>CPF</span> e sua <span>senha</span>, e clicar em <span>acessar</span>.</figcaption>
                 </figure>
                 
@@ -95,7 +102,7 @@
                     <!-- <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a> -->
                 </div>
                 <figure class="etapa-imagem" id="etapa-imagem-2">
-                    <img draggable="false" src="../Assets/Guias/Registro/etapa_3.png" alt="">
+                    <img draggable="false" class="etapas-imagens-figure" id="etapa-3-registro-imagem" src="../Assets/Guias/Registro/etapa_3.png" alt="">
                     <figcaption class="etapa-paragrafo">Acessando pela <span>etiqueta</span>, você deverá inserir o <span>número da requisição</span>, a <span>“senha da internet”</span> e os <span>caracteres de segurança</span>. Todas essas informações estão <span>presentes</span> na sua <span>etiqueta de paciente</span>.</figcaption>
                 </figure>
                 
@@ -113,7 +120,7 @@
                     <!-- <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a> -->
                 </div>
                 <figure class="etapa-imagem" id="etapa-imagem-2">
-                    <img draggable="false" src="../Assets/Guias/Registro/etapa_4.png" alt="">
+                    <img draggable="false" class="etapas-imagens-figure" id="etapa-4-registro-imagem" src="../Assets/Guias/Registro/etapa_4.png" alt="">
                     <figcaption class="etapa-paragrafo">Para acessar a <span>plataforma</span> utilizando sua conta do <span>gov.br</span>, você deverá inserir o seu <span>CPF</span> e, em seguida, inserir a sua <span>senha</span>.</figcaption>
                 </figure>
                 
@@ -131,7 +138,7 @@
                     <!-- <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a> -->
                 </div>
                 <figure class="etapa-imagem" id="etapa-imagem-2">
-                    <img draggable="false" src="../Assets/Guias/Registro/etapa_5.png" alt="">
+                    <img draggable="false" class="etapas-imagens-figure" id="etapa-5-registro-imagem" src="../Assets/Guias/Registro/etapa_5.png" alt="">
                     <figcaption class="etapa-paragrafo">Parabéns, você acessou o <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Portal do Paciente!</a></figcaption>
                 </figure>
                 
@@ -142,6 +149,7 @@
         </main>
     </div>
 
+    <script src="JS/registro_paciente.js"></script>
     <script src="JS/navbar_toggle.js" defer></script>
 </body>
 
