@@ -1,5 +1,7 @@
 @import '../fonts.css';
 @import '../global_styles.css';
+@import '../global_styles_large.css';
+@import '../global_styles_extra_large.css';
 
 main {
     width: 90%;
@@ -10,8 +12,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    margin-bottom: 80px;
 }
 
 .pergunta-frequente:nth-child(1) {

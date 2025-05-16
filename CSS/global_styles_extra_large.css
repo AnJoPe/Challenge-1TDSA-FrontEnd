@@ -1,0 +1,54 @@
+@media (min-width: 1300px) {
+    .estrutura-pagina-menu {
+        width: 84vw;
+    }
+
+    .header-page {
+        height: 13dvh;
+
+        font-size: 1.2rem;
+    }
+
+    .header-page img {
+        height: 80%;
+    }
+
+    .navbar-esquerda {
+        width: 16vw;
+    }
+
+    .close-menu {
+        top: 8px;
+        right: 4px;
+
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo-hc {
+        width: 75%;
+        aspect-ratio: 1;
+    }
+
+    .lista-links-menu {
+        width: 70%;
+    }
+
+    .lista-links-menu li {
+        height: 75px;
+
+        font-size: 2rem;
+    }
+
+    .lista-links-menu li img {
+        height: 45%;
+    }
+
+    .navbar-esquerda-escondida {
+        left: -12vw;
+    }
+
+    .estrutura-pagina-menu-expandida {
+        width: 96vw;
+    }
+}

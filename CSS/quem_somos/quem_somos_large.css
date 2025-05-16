@@ -1,19 +1,19 @@
-@media (min-width: 1300px) {
+@media (min-width: 992px) {
     .card-integrante {
-        width: 310px;
-        height: 460px;
+        width: 240px;
+        height: 440px;
     }
 
     .foto-integrante {
-        width: 85%;
+        width: 80%;
     }
 
     .card-integrante>h4 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     .card-integrante>h5 {
         margin-top: 8px;
-        font-size: 1.15rem;
+        font-size: 1.1rem;
     }
 }

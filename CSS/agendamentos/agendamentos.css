@@ -1,6 +1,9 @@
-@import "../fonts.css";
-@import "../global_styles.css";
+@import '../fonts.css';
+@import '../global_styles.css';
+@import '../global_styles_large.css';
+@import '../global_styles_extra_large.css';
 @import "../guias_styles/guias_styles.css";
+@import "../guias_styles/guias_styles_large.css";
 @import "../guias_styles/guias_styles_extra_large.css";
 
 main {
