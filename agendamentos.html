@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Guia de Agendamentos</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/agendamentos.css">
+</head>
+
+<body>
+    <nav id="navbar-esquerda-selector" class="navbar-esquerda">
+        <div class="relative-parent">
+            <img src="Assets/Icons/arrow_back_icon.svg" onclick="navbar_toggle()" alt="Seta para a esquerda. Sinaliza a função de fechar o menu de links" id="close-menu-selector" class="close-menu">
+            <img class="logo-hc" draggable="false" src="Assets/logo_hc.png" alt="Logo do Hospital das Clínicas">
+            <ul id="lista-links-menu-selector" class="lista-links-menu">
+                <a href="index.html">
+                    <li>
+                        Home
+                        <img src="Assets/Icons/home_icon.svg" alt="">
+                    </li>
+                </a>
+                <a href="faq.html">
+                    <li>
+                        FAQ
+                        <img src="Assets/Icons/faq_icon.svg" alt="">
+                    </li>
+                </a>
+                <a href="contato.html">
+                    <li>
+                        Contato
+                        <img src="Assets/Icons/contato.svg" alt="">
+                    </li>
+                </a>
+                <a href="quem_somos.html">
+                    <li>
+                        Quem somos
+                        <img src="Assets/Icons/quem_somos_icon.svg" alt="">
+                    </li>
+                </a>
+                </ol>
+        </div>
+    </nav>
+    <div id="estrutura-pagina-menu-selector" class="estrutura-pagina-menu">
+        <header class="header-page">
+            <div class="background-colorido-header">
+                <h2>Acessar os Agendamentos Feitos</h2>
+                <img src="./Assets/Icons/agendamentos_icon_azul.svg" alt="Ícone de Telefone simbolizando a página de contato">
+            </div>
+        </header>
+        <main>
+            <article id="etapa-1-agendamento" class="etapa-guia">
+                <div class="etapa-titulo">
+                    <h3>Etapa 1</h3>
+                    <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a>
+                </div>
+                <figure class="etapa-imagem" id="etapa-imagem-1">
+                    <img draggable="false" src="../Assets/Guias/Agendamentos/etapa_1.png" alt="">
+                    <figcaption class="etapa-paragrafo">Acesse a aba <span>“Minha Agenda”</span>, no <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">portal do paciente</a> do Hospital das Clínicas.</figcaption>
+                </figure>
+
+                <div class="linha-botoes-etapa">
+                    <a class="botao-etapa" href="#etapa-2-agendamento">Próxima Etapa</a>
+                </div>
+            </article>
+
+            <div class="divider-guias"></div>
+
+            <article id="etapa-2-agendamento" class="etapa-guia">
+                <div class="etapa-titulo">
+                    <h3>Etapa 2</h3>
+                    <!-- <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a> -->
+                </div>
+                <figure class="etapa-imagem" id="etapa-imagem-2">
+                    <img draggable="false" src="../Assets/Guias/Agendamentos/etapa_2.png" alt="">
+                    <figcaption class="etapa-paragrafo">Nessa aba, os agendamentos feitos aparecerão listados. Estará informado no agendamento o <span>tipo</span>, a <span>data/hora</span>, o <span>instituto</span> onde será realizado e a <span>especialidade</span> do mesmo.</figcaption>
+                </figure>
+                
+                <div class="linha-botoes-etapa">
+                    <a class="botao-etapa" href="#etapa-1-agendamento">Etapa Anterior</a>
+                    <a class="botao-etapa" href="#etapa-3-agendamento">Próximo Adendo</a>
+                </div>
+            </article>
+
+            <div class="divider-guias"></div>
+
+            <article id="etapa-3-agendamento" class="etapa-guia">
+                <div class="etapa-titulo">
+                    <h3>Adendo 1</h3>
+                    <!-- <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a> -->
+                </div>
+                <figure class="etapa-imagem" id="etapa-imagem-3">
+                    <img draggable="false" src="../Assets/Guias/Agendamentos/adendo_1.png" alt="">
+                    <figcaption class="etapa-paragrafo">Ao clicar em <span>“Filipeta”</span>, uma aba de <span>visualização do agendamento</span> será aberta, com algumas informações que podem vir a ser importantes dependendo do <span>tipo de agendamento</span>. <span>Leia bem o documento!</span> Aqui você pode <span>imprimi-lo</span> ou <span>salvá-lo</span> como <span>pdf</span>.</figcaption>
+                </figure>
+                
+                <div class="linha-botoes-etapa">
+                    <a class="botao-etapa" href="#etapa-2-agendamento">Etapa Anterior</a>
+                    <a class="botao-etapa" href="#etapa-4-agendamento">Próximo Adendo</a>
+                </div>
+            </article>
+
+            <div class="divider-guias"></div>
+
+            <article id="etapa-4-agendamento" class="etapa-guia">
+                <div class="etapa-titulo">
+                    <h3>Adendo 2</h3>
+                    <!-- <a target="_blank" href="https://portaldopaciente.hc.fm.usp.br/">Clique aqui para abrir o portal do paciente</a> -->
+                </div>
+                <figure class="etapa-imagem" id="etapa-imagem-3">
+                    <img draggable="false" src="../Assets/Guias/Agendamentos/adendo_2.png" alt="">
+                    <figcaption class="etapa-paragrafo">Agendamentos aparecerão com um desses <span>quatro ícones</span>, indicando o <span>tipo do agendamento</span>. São apenas indicações para que o paciente tenha ciência de como deve se <span>preparar</span> para o evento.</figcaption>
+                </figure>
+                
+                <div class="linha-botoes-etapa">
+                    <a class="botao-etapa" href="#etapa-1-agendamento">Finalizar Guia</a>
+                </div>
+            </article>
+        </main>
+    </div>
+
+    <script src="JS/navbar_toggle.js" defer></script>
+</body>
+
+</html>
