@@ -1,0 +1,93 @@
+@import './fonts.css';
+@import './global_styles.css';
+
+main {
+    width: 90%;
+    height: fit-content;
+
+    align-self: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 80px;
+}
+
+.pergunta-frequente:nth-child(1) {
+    margin-top: 20px;
+}
+
+.pergunta-frequente {
+    width: 60%;
+    min-height: 60px;
+
+    overflow: hidden;
+
+    padding: 0 12px 0px 12px;
+    border-radius: 20px;
+
+    box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.51);
+    -moz-box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.51);
+
+    background-color: var(--secondary-blue);
+
+    transition: 300ms ease-in-out;
+}
+.titulo-pergunta-frequente {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    position: relative;
+    z-index: 1;
+
+    padding: 12px 12px;
+
+    user-select: none;
+    cursor: pointer;
+}
+.titulo-pergunta-frequente img {
+    height: 25px;
+}
+.titulo-pergunta-frequente h3 {
+    font-size: 2rem;
+
+    font-weight: 600;
+    color: var(--primary-blue);
+}
+.paragrafo-pergunta {
+    color: white;
+    text-align: justify;
+
+    font-size: 1.25rem;
+
+    overflow: hidden;
+
+    height: 0;
+
+    transition: 300ms ease-in-out;
+}
+
+
+.padding-bottom-aberto {
+    padding-bottom: 12px;
+}
+
+
+.divider-faq {
+    width: 60%;
+    height: .45rem;
+
+    margin: 24px 0;
+    
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.51);
+    -moz-box-shadow: 0px 4px 8px -1px rgba(0,0,0,0.51);
+
+    background-color: var(--accent-color);
+}
