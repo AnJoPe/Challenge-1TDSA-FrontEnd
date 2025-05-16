@@ -26,7 +26,7 @@ body {
 }
 
 .estrutura-pagina-menu {
-    width: 85vw;
+    width: 84vw;
 
     align-self: flex-end;
     display: flex;
@@ -80,7 +80,7 @@ body {
 
 
 .navbar-esquerda {
-    width: 15vw;
+    width: 16vw;
     height: 100dvh;
 
     position: fixed;
@@ -161,15 +161,15 @@ body {
     color: #004f83;
 }
 .lista-links-menu li img {
-    height: 50%;
+    height: 45%;
 }
 
 
 .navbar-esquerda-escondida {
-    left: -11vw;
+    left: -12vw;
 }
 .lista-links-menu-escondida {
-    margin-right: 64px;
+    margin-right: 128px;
 }
 .close-menu-fechada {
     transform: rotate(-180deg);

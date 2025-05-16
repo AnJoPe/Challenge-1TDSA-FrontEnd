@@ -1,5 +1,5 @@
-@import './fonts.css';
-@import './global_styles.css';
+@import '../fonts.css';
+@import '../global_styles.css';
 
 main {
     width: 90%;
@@ -27,8 +27,6 @@ main {
 
     font-family: InterItalic;
     font-weight: 400;
-
-    font-size: 3rem;
 }
 
 .titulo-home-page h3 {
@@ -36,17 +34,13 @@ main {
 
     font-family: InterItalic;
     font-weight: 400;
-
-    font-size: 2.5rem;
 }
 
 #descricao-website {
     font-family: InterItalic;
     font-weight: 500;
-    font-size: x-large;
-    color: var(--primary-blue);
 
-    width: 30%;
+    color: var(--primary-blue);
 
     text-align: end;
     align-self: flex-end;
@@ -55,10 +49,6 @@ main {
 #explicacao-conteudo-website {
     font-family: InterItalic;
     font-weight: 500;
-    font-size: x-large;
-
-    width: 60%;
-    /* align-self: center; */
 
     margin-top: 32px;
 
@@ -74,8 +64,6 @@ main {
     font-weight: 550;
 
     margin-top: 24px;
-
-    font-size: 3rem;
 }
 
 #lista-guias-de-acesso {
@@ -104,11 +92,8 @@ main {
 
     cursor: pointer;
 
-    font-size: xx-large;
     color: white;
     font-weight: 500;
-
-    min-width: 420px;
 
     padding: 16px;
 

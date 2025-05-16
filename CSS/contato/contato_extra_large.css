@@ -1,0 +1,74 @@
+@media (min-width: 1300px) {
+    .formulario-wrapper {
+        width: 90%;
+    }
+
+    #informacoes-contato-hc {
+        height: 28vh;
+    }
+
+    #esquerda-informacoes-contato-hc h3 {
+        width: 75%;
+    }
+
+    #lista-formas-de-contato-hc {
+        font-size: 1.25rem;
+    }
+
+    #lista-formas-de-contato-hc li img {
+        height: 1.75rem;
+    }
+
+    #lista-endereco-hc {
+        font-size: 1.25rem;
+    }
+
+    #formulario-contato-integrantes {
+        width: 75%;
+    }
+
+    #formulario-contato-integrantes h2 {
+        font-size: 2.25rem;
+    }
+
+    #formulario-contato-integrantes h4 {
+        font-size: 1rem;
+    }
+
+    .label-formulario {
+        width: 45%;
+
+        font-size: 1.25rem;
+    }
+
+    .input-formulario-contato {
+        font-size: 1.25rem;
+    }
+
+    .textarea-form-contato {
+        font-size: 1rem;
+
+        height: 120px;
+    }
+
+    .botao-formulario {
+        width: 150px;
+        height: 40px;
+    }
+
+    .input-formulario-invalido::placeholder {
+        font-size: .95rem;
+    }
+
+    .overflow-left {
+        left: -85%;
+    }
+
+    .email-enviado {
+        gap: 32px;
+    }
+
+    .email-enviado-remover-texto {
+        width: 90px;
+    }
+}

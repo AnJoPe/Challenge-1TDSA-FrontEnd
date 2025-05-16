@@ -1,0 +1,25 @@
+@media (min-width: 1300px) {
+    .etapa-titulo {
+        height: 5vh;
+    }
+
+    .etapa-titulo>h3 {
+        font-size: 2.5rem;
+    }
+
+    .etapa-titulo>a {
+        font-size: 1.5rem;
+    }
+
+    .etapa-paragrafo {
+        font-size: 1.25rem;
+    }
+
+    .botao-etapa {
+        font-size: 1.35rem;
+    }
+
+    .divider-guias {
+        height: .65vh;
+    }
+}
