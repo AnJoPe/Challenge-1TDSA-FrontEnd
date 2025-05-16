@@ -115,12 +115,14 @@
                             <textarea placeholder="Digite aqui..." onfocus="resetInput('input-corpo')" id="textarea-formulario-contato" class="textarea-form-contato"></textarea>
                         </label>
                     </div>
-                    <button type="submit">
-                        Enviar
-                        <img src="Assets/Icons/email_branco_icon.svg"
-                            alt="Ícone de um email, dentro do botão. Sinaliza que ao clicá-lo, o email redigido acima será enviado por email.">
-                        <img src="Assets/Icons/seta_direita_icon.svg"
-                            alt="Ícone de uma seta para a direita, dentro do botão. Sinaliza que ao clicá-lo, o email será enviado.">
+                    <button id="botao-formulario" class="botao-formulario" type="submit">
+                        <div id="overflow-wrapper-selector" class="overflow-wrapper">
+                            <span id="span-enviar-texto" class="span-enviar">Enviar</span>
+                            <img class="email-enviado" src="Assets/Icons/email_branco_icon.svg"
+                                alt="Ícone de um email, dentro do botão. Sinaliza que ao clicá-lo, o email redigido acima será enviado por email.">
+                            <img src="Assets/Icons/seta_direita_icon.svg"
+                                alt="Ícone de uma seta para a direita, dentro do botão. Sinaliza que ao clicá-lo, o email será enviado.">
+                        </div>
                     </button>
                 </form>
             </section>

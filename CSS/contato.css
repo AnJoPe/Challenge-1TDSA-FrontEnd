@@ -208,8 +208,10 @@ main {
     outline: none;
 }
 
-.formulario-wrapper button {
+.botao-formulario {
     background-color: var(--primary-blue);
+
+    position: relative;
 
     box-shadow: 10px 10px 20px -5px rgba(0,0,0,0.5);
     -webkit-box-shadow: 10px 10px 20px -5px rgba(0,0,0,0.5);
@@ -221,7 +223,8 @@ main {
 
     align-self: flex-end;
 
-    min-width: 150px;
+    width: 150px;
+    height: 40px;
 
     border: transparent;
     border-radius: 8px;
@@ -230,11 +233,15 @@ main {
     font-size: 1.25rem;
     color: white;
 
+    overflow: hidden;
+
     cursor: pointer;
 
     padding: 8px;
+
+    transition: 300ms ease-in-out;
 }
-.formulario-wrapper button:hover {
+.botao-formulario:hover {
     background-color: #006bb3;
 }
 
@@ -251,4 +258,35 @@ main {
 
 .form-invalido {
     border-color: red
+}
+
+.overflow-wrapper {
+    width: fit-content;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    position: absolute;
+    
+    overflow: hidden;
+
+    gap: 8px;
+
+    transition: 350ms ease-in-out;
+}
+.span-enviar {
+    width: fit-content;
+    transition: 350ms ease-in-out;
+    transition-delay: 300ms;
+}
+
+.overflow-left {
+    left: -85%;
+}
+.email-enviado {
+    gap: 32px;
+}
+.email-enviado-remover-texto {
+    width: 90px;
 }

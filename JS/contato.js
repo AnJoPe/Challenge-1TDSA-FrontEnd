@@ -12,6 +12,9 @@ const label_assunto = document.getElementById('label-form-assunto');
 const input_corpo = document.getElementById('textarea-formulario-contato');
 const label_corpo = document.getElementById('label-form-corpo');
 
+const botao_formulario = document.getElementById('botao-formulario');
+const span_enviar_texto = document.getElementById('span-enviar-texto');
+const overflow_wrapper = document.getElementById('overflow-wrapper-selector');
 
 function validarEmail(email) {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -45,7 +48,17 @@ function resetInput(input) {
             break;
     }
 
+    botao_formulario.className = "botao-formulario"
+    span_enviar_texto.className = "span-enviar"
+    overflow_wrapper.className = "overflow-wrapper"
     formulario.className = "formulario-wrapper"
+}
+
+function limparInputs() {
+    input_nome.value = "";
+    input_email.value = "";
+    input_assunto.value = "";
+    input_corpo.value = "";
 }
 
 formulario.addEventListener("submit", (e) => {
@@ -94,4 +107,10 @@ formulario.addEventListener("submit", (e) => {
     const enviar_email = `mailto:${emails}?subject=${encodeURIComponent(assunto)}&body=${encodeURIComponent(corpo)}`;
 
     window.open(enviar_email);
+
+    botao_formulario.className = "botao-formulario email-enviado-remover-texto"
+    span_enviar_texto.className = "span-enviar email-enviado-remover-texto"
+    overflow_wrapper.className = "overflow-wrapper overflow-left"
+
+    limparInputs()
 })
