@@ -169,7 +169,7 @@ Hospital_das_Clinicas
 |-- prescricoes.html
 |-- quem_somos.html
 |-- README.MD
-`-- registro_paciente.html
+|-- registro_paciente.html
 ```
 
 ---
