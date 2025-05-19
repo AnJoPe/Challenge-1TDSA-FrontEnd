@@ -4,17 +4,23 @@
     }
 
     .header-page {
+        padding: 12px 8px 12px 20px;
+
         height: 13dvh;
 
         font-size: 1rem;
     }
 
     .header-page img {
-        height: 80%;
+        height: 60%;
     }
 
     .navbar-esquerda {
         width: 19vw;
+    }
+
+    .telefone-navbar-selector {
+        display: none;
     }
 
     .close-menu {

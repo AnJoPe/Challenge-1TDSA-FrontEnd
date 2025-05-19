@@ -40,8 +40,6 @@ body {
 
     color: var(--primary-blue);
 
-    padding: 12px 40px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,10 +62,6 @@ body {
     gap: 16px;
 
     background-color: rgb(143, 195, 230, .65);
-}
-
-.telefone-navbar-selector {
-    display: none;
 }
 
 .header-page h2 {

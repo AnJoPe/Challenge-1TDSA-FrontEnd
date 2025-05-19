@@ -4,6 +4,8 @@
     }
 
     .header-page {
+        padding: 12px 8px 12px 12px;
+
         height: 13dvh;
 
         font-size: 1.2rem;
@@ -11,6 +13,10 @@
 
     .header-page img {
         height: 80%;
+    }
+
+    .telefone-navbar-selector {
+        display: none;
     }
 
     .navbar-esquerda {
